@@ -1,21 +1,24 @@
 #include <iostream>
-
+#include<string.h>
 using namespace std;
 
 int main()
 {
-    char str;
+    char str[100];
     cout<<"Input a string -> ";
     cin>>str;
-    int l=0;
-    int h=strlen(str)-1;
-    while(h>l)
+    int start=0,temp=0;
+    int end=strlen(str)-1;
+    while(end>start)
     {
-        if(str[l++]!=str[h--])
-        cout<<str<<" is not a palindrome.";
-        else
-        cout<<str<<" is a palindrome. "
+        if(str[start++]!=str[end--])
+        temp=1;
     }
+    if(temp==1)
+        cout<<str<<" is not a palindrome.";
+    else
+        cout<<str<<" is a palindrome. ";
+    
     return 0;
 }
 

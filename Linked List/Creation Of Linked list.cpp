@@ -8,8 +8,7 @@ struct node
     struct node *link;
 };
 
-struct node *root=NULL;
-root=(struct node *)malloc(sizeof(struct node));
+struct node *root=(struct node *)malloc(sizeof(struct node));
 
 int main()
 {

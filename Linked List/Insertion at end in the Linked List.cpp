@@ -46,9 +46,9 @@ void insertatend()
         struct node *temp,*ptr;
         temp=(struct node *)malloc(sizeof(struct node));
         cout<<"\n Enter the value ->" ;
-        cin>>temp->info ;
+        cin>>temp->data;
         temp->next =NULL;
-        if(start==NULL)
+        if(root==NULL)
         {
                 root=temp;
         }

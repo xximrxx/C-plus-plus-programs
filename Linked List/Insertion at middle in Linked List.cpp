@@ -37,8 +37,8 @@ void Display()
   cout<<"Linked List created is ";
     while (ptr!=NULL)
     {
-        cout<<p->data<<"->";
-        p=p->next;
+        cout<<ptr->data<<"->";
+        ptr=ptr->next;
     }
 }
 void insertatmiddle()

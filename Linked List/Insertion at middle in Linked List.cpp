@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
-struct Node
+struct node
 {
     int data;
-    struct Node* next;
+    struct node* next;
 
 }*root=NULL;
 
 void append()
 {
-     struct Node *temp; // intializing node first
+     struct node *temp; // intializing node first
     
         temp=(struct Node*)malloc(sizeof(struct Node));
         cin<<temp->data;//node to enter value 
@@ -33,7 +33,7 @@ void append()
 
 void Display()
 {
-   struct Node* ptr
+   struct node* ptr
   cout<<"Linked List created is ";
     while (ptr!=NULL)
     {

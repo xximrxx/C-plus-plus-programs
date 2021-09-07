@@ -12,7 +12,7 @@ void append()
      struct node *temp; // intializing node first
     
         temp=(struct Node*)malloc(sizeof(struct Node));
-        cin<<temp->data;//node to enter value 
+        cin>>temp->data;//node to enter value 
         temp->next=NULL; 
          if(root==NULL)
          {

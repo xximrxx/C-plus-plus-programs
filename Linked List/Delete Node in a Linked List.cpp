@@ -31,7 +31,7 @@ void append()
 
 }
 
-void Display()
+void display()
 {
    struct node* ptr
   cout<<"Linked List created is ";

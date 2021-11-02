@@ -1,3 +1,5 @@
+//To show that the three lengths are forming a triangle or not, we need to use the theorem that sum of two side lengths of a triangle is always greater than the third side
+
 #include <bits/stdc++.h>
 using namespace std;
 

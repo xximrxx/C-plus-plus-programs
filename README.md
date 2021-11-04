@@ -4,4 +4,5 @@
 3. String
 4. Stack
 5. Bit Masking
+6. Sorting
 

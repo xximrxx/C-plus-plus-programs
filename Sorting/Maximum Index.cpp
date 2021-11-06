@@ -27,7 +27,7 @@ int main()
     {
       cin>>arr[n];
     }
-    int maxDiff=maxIndexDiff(arr, n);
-    cout<<maxDiff;
+    int maxDif=maxIndexDiff(arr, n);
+    cout<<maxDif;
     return 0;
 }

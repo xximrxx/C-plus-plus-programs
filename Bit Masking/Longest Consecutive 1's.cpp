@@ -18,7 +18,7 @@ int main()
   cin>>num1;
   int ans;
   ans=consecutive_ones(num1);
-  cout<<"Maximum consecutive ones are" <<ans;
+  cout<<"Maximum consecutive ones are"<<ans;
   return 0;
 }
 

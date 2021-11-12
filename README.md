@@ -1,5 +1,5 @@
 # C plus-plus programs
-1. Arrays
+1. Array
 2. Linked List
 3. String
 4. Stack
